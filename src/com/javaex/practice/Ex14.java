@@ -1,0 +1,23 @@
+package com.javaex.practice;
+
+import java.util.Scanner;
+
+public class Ex14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		double width, height;
+		
+		System.out.print("가로를 입력하세요: ");
+		width = sc.nextDouble();
+		System.out.print("세로를 입력하세요: ");
+		height = sc.nextDouble();
+		System.out.println("사각형의 넓이는 " + width*height);
+		System.out.println("사각형의 둘레는 " + (width*2+height*2));
+		
+
+	}
+
+}
